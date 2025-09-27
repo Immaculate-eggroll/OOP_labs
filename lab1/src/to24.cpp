@@ -5,7 +5,7 @@
 
 std::string to24(const std::string &input) {
   int hour = 0, minute = 0;
-  char colon, m1, m2;
+  char colon, ap, mm;
 
   if (sscanf(input.c_str(), "%d%c%d %c%c", &hour, &colon, &minute, &ap, &mm) != 5) { return ""; }
 
